@@ -3,7 +3,7 @@
 >安装方法
 
 ```shell
-go get github/jetamie/request
+go get github.com/jetamie/request
 ```
 
 >使用方法
