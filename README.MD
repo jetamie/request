@@ -9,6 +9,22 @@ go get github.com/jetamie/request
 >使用方法
 
 ```go
+package main
+
+import (
+	"github.com/jetamie/request"
+)
+
+func main() {
+	r := request.NewRequest()
+	body := r.SetLog(false).Request("http://www.10jqka.com.cn")
+	println(body)
+}
+```
+
+>模块测试用例
+
+```go
 package request
 
 import (
