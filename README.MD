@@ -68,7 +68,7 @@ func TestRequest_PrintCookie(t *testing.T) {
 }
 ```
 
->版本介绍
+>版本功能介绍
 
 `v0.1`
 
