@@ -1,4 +1,4 @@
-###Golang封装请求(带cookie)
+### Golang封装请求(带cookie)
 
 >安装方法
 
@@ -54,7 +54,7 @@ func TestRequest_PrintCookie(t *testing.T) {
 
 >版本介绍
 
-``v0.1``
+`v0.1`
 
 - get/post请求(带cookie)
 - 请求https时跳过ssl证书验证
